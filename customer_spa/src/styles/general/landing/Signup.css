@@ -1,0 +1,92 @@
+#cta_wrapper {
+    width: 77.5%;
+    height: 100%;
+    background-color: rgba(241, 241, 241, 0.25);
+    overflow: hidden;
+}
+
+.su_section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    transition: 0.3s ease-in-out;
+    position: relative;
+}
+
+.su_heading_wrapper {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.su_heading {
+    color: white;
+    font-size: 1.1em;
+    font-weight: lighter;
+}
+
+.signup_input {
+    height: 11.5%;
+    width: 85%;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    margin: 2.5% 0 2.5% 0;
+    font-size: 1em;
+    color: #505DF7;
+    padding: 0 2.5% 0 2.5%;
+}
+
+.signup_input::placeholder {
+    letter-spacing: 1px;
+    font-weight: 250;
+    color: #505DF7;
+}
+
+.signup_input:focus {
+    outline: none;
+}
+
+.short_input {
+    width: 41.25%;
+    margin: 3.75% 1.5% 3.75% 1.5%;
+}
+
+#pswVisibility {
+    position: absolute;
+    width: 4vh;
+    height: 4vh;
+    border-radius: 6px;
+    background-color: green;
+}
+
+.signup_btn {
+    color: #505DF7;
+    background-color: white;
+    font-weight: bold;
+    font-size: 1.15em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#signup_legal {
+    position: absolute;
+    bottom: 2.5%;
+    font-size: 0.5em;
+    color: white;
+    width: 82.5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.signup_link {
+    color: white;
+}

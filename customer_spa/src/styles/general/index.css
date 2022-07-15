@@ -1,0 +1,15 @@
+/* General styling */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: transparent;
+  font-family: 'Helvetica', sans-serif; /* Futura */
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

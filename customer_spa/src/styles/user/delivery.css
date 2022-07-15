@@ -1,0 +1,65 @@
+.order_header {
+    width: 100%;
+    height: 11%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5%;
+}
+
+.order_header_section {
+    height: 100%;
+    width: 22.5%;
+    background-color: #505DF7;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9em;
+    font-weight: 200;
+    border-radius: 8px;
+}
+
+.small_order_header_section {
+    width: 10%;
+}
+
+/* table for the outbound deliveries */
+.outbound_table {
+    width: 100%;
+    height: 90%;
+    overflow: scroll;
+    position: relative;
+}
+
+/* no deliveries so far */
+.delivery_empty_result {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    font-size: 0.9em;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+/* create a new outbound user */
+.add_delivery_btn {
+    position: absolute;
+    right: 2vh;
+    bottom: 2vh;
+    height: 6vh;
+    width: 6vh;
+    border-radius: 50%;
+    background-color: #505DF7;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 100;
+}

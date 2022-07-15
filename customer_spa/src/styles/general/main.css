@@ -1,0 +1,125 @@
+.center_container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.main_center_content_wrapper {
+    height: 100vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main_outer_content {
+    height: 7.5vh;
+    width: 95vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.main_outer_switch_wrapper {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 1.5%;
+}
+
+.main_outer_btn {
+    width: 47.5%;
+    height: 60%;
+    border-radius: 8px;
+    font-size: 0.7em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.selected_main_outer_btn {
+    background-color: lightgray;
+}
+
+.main_outer_heading {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.1em;
+    font-weight: 200;
+    padding: 0 2.5% 0 2.5%;
+}
+
+.main_center_content {
+    width: 95vw;
+    height: 85vh;
+    border-radius: 12px 0 0 12px;
+    background-color: rgba(241, 241, 241, 0.6);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.main_center_content_top {
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 1.75%;
+    overflow: scroll;
+}
+
+/* if additional content is shown dark background */
+.menu_dark_bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.55);
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px 0 0 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    z-index: 150;
+}
+
+.create_input_hide {
+    position: absolute;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: -1.5vh;
+    right: -1.5vh;
+    background-color: white;
+    color: #505DF7;
+    font-size: 0.8em;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.search_input {
+    width: 60%;
+    height: 8vh;
+    text-align: center;
+    font-size: 1.1em;
+    border-radius: 8px;
+    background-color: #505DF7;
+    color: white;
+    border: none;
+    margin-top: 6vh;
+}

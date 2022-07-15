@@ -1,0 +1,115 @@
+.landing_wrapper {
+    padding: 0 1.25% 0 1.25%;
+}
+
+/* navbar */
+#navbar {
+    position: sticky;
+    top: 0;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+}
+
+#logo_wrapper {
+    letter-spacing: 2px;
+    font-weight: lighter;
+    font-size: 1.2em;
+}
+
+#right_navbar {
+    height: 57.5%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 6px;
+    background-color: rgba(241, 241, 241, 0.6);
+}
+
+.navbar_link {
+    width: 47.5%;
+    height: 80%;
+    font-size: 0.75em;
+    color: #4B4B4B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
+.navbar_link:hover {
+    background-color: white;
+}
+
+.active_link {
+    background-color: white;
+}
+
+#navbar_signup {
+    margin-right: 2.5%;
+    display: none;
+}
+
+/* ============================================= */
+
+/* main cta container */
+#main {
+    width: 100%;
+    height: 70vh;
+    background-color: #505DF7;
+    border-radius: 12px 12px 0 0;
+    display: flex;
+    /*justify-content: center;*/
+    padding: 0 0 0 5%;
+    overflow: hidden;
+}
+
+.main_section {
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    transition: 0.3s ease-in-out;
+}
+
+#main_txt {
+    font-size: 3.5em;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+    margin: 2.5% 0 2.5% 0;
+}
+
+#main_sub_text {
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: 200;
+    line-height: 150%;
+    margin: 2.5% 0 2.5% 0;
+}
+
+/* cta wrapper */
+.right_main_section {
+    width: 55%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+/* solution */
+#solution {
+    width: 100%;
+    height: 15vh;
+    margin-top: 2.5vh;
+}

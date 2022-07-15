@@ -1,0 +1,133 @@
+.create_input_wrapper {
+    width: 70%;
+    height: 50vh;
+    background-color: white;
+    border-radius: 12px;
+    margin-top: 150vh;
+    transition: 0.3s ease-in-out;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.large_create_input_wrapper {
+    height: 80vh;
+}
+
+.create_desc {
+    font-size: 1em;
+    font-weight: 300;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 5vh;
+    padding: 0 3% 0 3%;
+    border-radius: 12px 0 12px 0;
+    border: 1px solid rgba(241, 241, 241, 0.6);
+    display: flex;
+    align-items: center;
+}
+
+.create_input, .internal_create_input_wrapper {
+    width: 70%;
+    height: 8vh;
+    border-radius: 12px;
+    background-color: rgba(241, 241, 241, 0.6);
+    border: none;
+    padding: 0 2.5% 0 2.5%;
+    font-size: 0.9em;
+    font-weight: 200;
+    margin: 0.5% 0 0.5% 0;
+    text-align: center;
+}
+
+.highlighted_create_input:focus {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    outline: none;
+}
+
+.internal_create_input_wrapper {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.short_create_input {
+    width: 27.5%;
+}
+
+.disabled_input {
+    cursor: not-allowed;
+}
+
+/* radio button related stylign */
+.input_radio_btn {
+    display: none;
+}
+
+.input_radio_btn_label {
+    width: 30%;
+    height: 80%;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(241, 241, 241, 0.6);
+    cursor: pointer;
+}
+
+.input_radio_btn:checked + label {
+    background-color: rgba(241, 241, 241, 0.6);
+}
+
+/*separator*/
+.create_separator {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(241, 241, 241, 0.6);
+}
+
+.create_submit {
+    width: 70%;
+    height: 8vh;
+    border-radius: 12px;
+    border: none;
+    background-color: #505DF7;
+    color: white;
+    font-size: 0.9em;
+    font-weight: 200;
+    margin: 2.5% 0 1.5% 0;
+    cursor: pointer;
+}
+
+/* list with possible users */
+.create_result_wrapper {
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 35vh;
+    width: 70%;
+    border-radius: 8px;
+    background-color: white;
+    overflow: scroll;
+    padding: 1.5%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.create_result_row {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5% 4% 0.5% 4%;
+    background-color: rgba(241, 241, 241, 0.6);
+    cursor: pointer;
+    font-size: 0.8em;
+    border-radius: 6px;
+}
