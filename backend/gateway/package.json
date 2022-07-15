@@ -1,0 +1,27 @@
+{
+  "name": "restaurant_server_gateway",
+  "version": "1.0.0",
+  "description": "restaurant app server gateway",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.lrz.de:jakobz97/restaurant_server.git"
+  },
+  "author": "Jakob Zurstiege",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "kafkajs": "^1.15.0",
+    "nodemon": "^2.0.16",
+    "winston": "^3.3.3"
+  }
+}

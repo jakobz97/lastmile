@@ -1,0 +1,4 @@
+2022-01-13 19:08:44 [31merror[39m: Kafka connection error KafkaJSNumberOfRetriesExceeded: Connection timeout
+2022-01-13 19:19:24 [31merror[39m: Kafka connection error KafkaJSNumberOfRetriesExceeded: Connection timeout
+2022-05-20 08:30:27 [31merror[39m: Kafka connection error KafkaJSNumberOfRetriesExceeded: Failed to connect: Port should be >= 0 and < 65536. Received NaN.
+2022-05-20 08:32:00 [31merror[39m: Kafka connection error KafkaJSNonRetriableError: Failed to connect: broker at index 0 is invalid "undefined"
